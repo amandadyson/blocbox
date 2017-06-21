@@ -1,2 +1,0 @@
-# blocbox
-**Amanda Dyson**
