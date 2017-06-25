@@ -65,21 +65,6 @@ p {
   .one-fourth {
     width: 21%;
   }
-  header nav ul {
-    display:inline;
-    text-align: right;
-    float:right;
-    margin:0;
-  }
-  header .hero h1 {
-    font-size: 48px;
-  }
-  header .hero p {
-    font-size: 22px;
-  }
-  header .hero img {
-    width: 100%;
-  }
 }
 @media (min-width: 1200px) {
   .container {
@@ -138,6 +123,23 @@ header .hero img {
   margin: 3em auto 0;
   width: 90%;
   max-width: 750px;
+}
+@media (min-width: 992px) {
+  header nav ul {
+    display:inline;
+    text-align: right;
+    float:right;
+    margin:0;
+  }
+  header .hero h1 {
+    font-size: 48px;
+  }
+  header .hero p {
+    font-size: 22px;
+  }
+  header .hero img {
+    width: 100%;
+  }
 }
 
 /* BUTTONS */
@@ -357,7 +359,7 @@ footer .logo{
   padding: 2em 0 2em 1.5em;
 }
 
-/*  DASHBOARD */
+/*  DASHBOARD CONTENT*/
 
 .box-photo{
   height: 250px;
@@ -370,6 +372,8 @@ footer .logo{
   margin: 20px;
   height: 250px;
   width: 274px;
+  position: relative;
+  overflow: hidden;
 }
 .favicon {
   height: 16px;
