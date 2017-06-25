@@ -356,3 +356,22 @@ footer .right-footer-block {
 footer .logo{
   padding: 2em 0 2em 1.5em;
 }
+
+/*  DASHBOARD */
+
+.box-photo{
+  height: 250px;
+  width: 274px;
+}
+.item-box {
+  /* Mask: */
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.40);
+  margin: 20px;
+  height: 250px;
+  width: 274px;
+}
+.favicon {
+  height: 16px;
+  width: 16px;
+}
